@@ -1,3 +1,4 @@
+1.41.8: Adding hew HH villain.
 1.41.7: Fixing reward shards and labyrinth info module due to girl image url change.
 1.41.6: Adding Penta Drill support for Home Screen, Resource bars (temporarily removing PoP bar), Hide Claimed Rewards, and team filter modules and some bug fixes. Adding data for HH PA world 2 and CxH world 14.
 1.41.5: Adding new villain drops to the villain menu, fixing modules for the new lust arena, and some bug fixes.
@@ -71,7 +72,7 @@
 1.36.1: Fixing equip filter for balanced theme resonance bonus
 1.36.0: Adding module to add additional information to the upgrade page, and a style tweak to remove the white slot border in the market. Updated equip filter for resonance bonuses (will require re-favoriting equips) and other bug fixes.
 1.35.4: Fixing club champ shard display and booster status collector after 25/05 update
-1.35.3: Pre-empting update for new reward slot display and new upgrade page teams tab 
+1.35.3: Pre-empting update for new reward slot display and new upgrade page teams tab
 1.35.2: Pre-empting update for upgrade page quicknav module, fixing shard count in seasons, and adding CxH world 9 data
 1.35.1: Adding reverse order option to sort daily missions module, fixing hide game links after 10/05 update
 1.35.0: Adding module to sort daily missions by duration, fixed some bugs for the Improved Waifu
