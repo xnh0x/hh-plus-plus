@@ -157,6 +157,7 @@ export const stConfig = {
 }
 
 export const villain = {
+    // main
     darklord: 'Dark Lord',
     ninjaspy: 'Ninja Spy',
     gruntt: 'Gruntt',
@@ -176,8 +177,12 @@ export const villain = {
     gross: 'Gross',
     harriet: 'Harriet',
     darthexcitor: 'Darth Excitor',
+    daddy: 'Daddy',
+    // bunny who
     arthur: 'Arthur',
     venamkharney: 'Venam Kharney',
+    // monster
+    stheno: 'Stheno',
 
     edward: 'Edward',
     edernas: 'Edernas',

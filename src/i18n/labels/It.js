@@ -217,6 +217,7 @@ export const villain = {
     jacksoncrew: 'Ciurma di Jackson',
     pandorawitch: 'Strega Pandora',
     werebunnypolice: 'Polizia del Conigli Mannari',
+    daddy: 'Papy',
 
     fallback: 'Troll mondo {{world}}',
     event: 'Evento',

@@ -280,17 +280,20 @@ export default {
             items: 'pictures/design/ic_kiss'
         },
         {
+            key: 'daddy',
             opponent: 22,
             world: 24,
             girls: {
-                1: [],
+                1: ['548844324', '561720989', '749138756'],
                 2: [],
                 3: []
             },
             gems: [{
                 element: 'sun',
                 amount: 25,
-            }]
+            }],
+            items: 'pictures/design/girl_skills/epic_resource',
+            ico: '22001-af090f098db5b8c02e0d03b090bb14ea',
         },
         {
             key: 'arthur',
@@ -332,22 +335,20 @@ export default {
             ico: '21001-8b34e1074ae0fe3d71c986690d413f98'
         },
         {
-            adventure: 2,
+            key: 'stheno',
+            adventure: 3,
             opponent: 23,
             world: 25,
             girls: {
-                1: [],
+                1: ['626645441', '855933632', '999370388'],
                 2: [],
                 3: []
             },
             gems: [{
-                element: 'psychic',
-                amount: 15,
-            }, {
-                element: 'water',
-                amount: 15,
-            }],
-            items: 'pictures/items/K4'
+                element: 'all',
+                amount: 3,
+            },],
+            ico: '23001-ef662faa3241a8462c6c739a2c180b73',
         },
     ],
     GH: [
