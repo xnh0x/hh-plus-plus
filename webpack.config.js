@@ -39,7 +39,8 @@ const config = {
         new webpack.BannerPlugin({
             banner,
             raw: true,
-            entryOnly: true
+            entryOnly: true,
+            stage: webpack.Compilation.PROCESS_ASSETS_STAGE_OPTIMIZE_SIZE + 1
         })
     ]
 }
