@@ -1,7 +1,6 @@
 /* eslint-env node */
 const path = require('path')
 const webpack = require('webpack')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const BannerBuilder = require('./build/BannerBuilder')
 
 const banner = BannerBuilder.buildBanner()
@@ -35,23 +34,6 @@ const config = {
                 ],
             },
         ]
-    },
-    optimization: {
-        minimizer: [
-            new UglifyJsPlugin({
-                parallel: true,
-                uglifyOptions: {
-                    output: {
-                        beautify: false,
-                        preamble: banner,
-                    },
-                    sourceMap: {
-                        url: 'inline',
-                    },
-                },
-                sourceMap: false,
-            }),
-        ],
     },
     plugins: [
         new webpack.BannerPlugin({
